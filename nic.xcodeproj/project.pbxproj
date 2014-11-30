@@ -10,14 +10,12 @@
 		267E67821A29C5A40039120B /* MyEconomics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267E67811A29C5A40039120B /* MyEconomics.storyboard */; };
 		267E67861A29CDF20039120B /* MyEconomicsMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67851A29CDF20039120B /* MyEconomicsMeViewController.m */; };
 		267E678A1A29CE870039120B /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67891A29CE870039120B /* Bubble.m */; };
-		267E678B1A29CE870039120B /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67891A29CE870039120B /* Bubble.m */; };
 		267E678E1A2A00A40039120B /* MotionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E678D1A2A00A40039120B /* MotionWindow.m */; };
 		267E67911A2A231B0039120B /* BubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67901A2A231B0039120B /* BubbleView.m */; };
 		267E67991A2B37F50039120B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267E67981A2B37F50039120B /* AudioToolbox.framework */; };
 		267E679B1A2B3F3E0039120B /* blob.wav in Resources */ = {isa = PBXBuildFile; fileRef = 267E679A1A2B3F3E0039120B /* blob.wav */; };
 		267E679E1A2B436E0039120B /* MyEconomicsComparisonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E679D1A2B436E0039120B /* MyEconomicsComparisonViewController.m */; };
 		267E67A11A2B53A50039120B /* SmileyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67A01A2B53A50039120B /* SmileyView.m */; };
-		267E67A21A2B551B0039120B /* SmileyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E67A01A2B53A50039120B /* SmileyView.m */; };
 		5013B3CC1A2B26AF008320DF /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013B3CA1A2B26AF008320DF /* TransactionTableViewCell.m */; };
 		5013B3CD1A2B26AF008320DF /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5013B3CB1A2B26AF008320DF /* TransactionTableViewCell.xib */; };
 		5013B3D11A2B3713008320DF /* LegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013B3CF1A2B3713008320DF /* LegendView.m */; };
@@ -32,7 +30,6 @@
 		507FD14A1A248B3600DA3D52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507FD1491A248B3600DA3D52 /* ViewController.m */; };
 		507FD14F1A248B3600DA3D52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507FD14E1A248B3600DA3D52 /* Images.xcassets */; };
 		507FD1521A248B3600DA3D52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507FD1501A248B3600DA3D52 /* LaunchScreen.xib */; };
-		507FD15E1A248B3600DA3D52 /* nicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507FD15D1A248B3600DA3D52 /* nicTests.m */; };
 		507FD1681A24903E00DA3D52 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507FD1671A24903E00DA3D52 /* LocalAuthentication.framework */; };
 		507FD16C1A24A32200DA3D52 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507FD16B1A24A32200DA3D52 /* ViewController.xib */; };
 		507FD1731A24AFC000DA3D52 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 507FD1711A24AFC000DA3D52 /* LoadingView.m */; };
@@ -62,16 +59,6 @@
 		975946A31A2A3196000529DB /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975946A21A2A3196000529DB /* BIDViewController.xib */; };
 		F715B1B4FB3D6F53062370A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B85322A599A32C1F40D3B787 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		507FD1581A248B3600DA3D52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 507FD1331A248B3600DA3D52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 507FD13A1A248B3600DA3D52;
-			remoteInfo = nic;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		267E67811A29C5A40039120B /* MyEconomics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyEconomics.storyboard; sourceTree = "<group>"; };
@@ -116,9 +103,6 @@
 		507FD1491A248B3600DA3D52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		507FD14E1A248B3600DA3D52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		507FD1511A248B3600DA3D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		507FD1571A248B3600DA3D52 /* nicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		507FD15C1A248B3600DA3D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		507FD15D1A248B3600DA3D52 /* nicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nicTests.m; sourceTree = "<group>"; };
 		507FD1671A24903E00DA3D52 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		507FD1691A24950A00DA3D52 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 		507FD16A1A24961E00DA3D52 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -194,13 +178,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		507FD1541A248B3600DA3D52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -246,7 +223,6 @@
 			children = (
 				507FD1671A24903E00DA3D52 /* LocalAuthentication.framework */,
 				507FD13D1A248B3600DA3D52 /* nic */,
-				507FD15A1A248B3600DA3D52 /* nicTests */,
 				507FD13C1A248B3600DA3D52 /* Products */,
 				7877B5B830F48E60F5F39C5A /* Pods */,
 				B9E42D1795B398C97C1F977B /* Frameworks */,
@@ -257,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				507FD13B1A248B3600DA3D52 /* Notson.app */,
-				507FD1571A248B3600DA3D52 /* nicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,23 +262,6 @@
 			children = (
 				507FD13F1A248B3600DA3D52 /* Info.plist */,
 				507FD1401A248B3600DA3D52 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		507FD15A1A248B3600DA3D52 /* nicTests */ = {
-			isa = PBXGroup;
-			children = (
-				507FD15D1A248B3600DA3D52 /* nicTests.m */,
-				507FD15B1A248B3600DA3D52 /* Supporting Files */,
-			);
-			path = nicTests;
-			sourceTree = "<group>";
-		};
-		507FD15B1A248B3600DA3D52 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				507FD15C1A248B3600DA3D52 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -472,24 +430,6 @@
 			productReference = 507FD13B1A248B3600DA3D52 /* Notson.app */;
 			productType = "com.apple.product-type.application";
 		};
-		507FD1561A248B3600DA3D52 /* nicTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 507FD1641A248B3600DA3D52 /* Build configuration list for PBXNativeTarget "nicTests" */;
-			buildPhases = (
-				507FD1531A248B3600DA3D52 /* Sources */,
-				507FD1541A248B3600DA3D52 /* Frameworks */,
-				507FD1551A248B3600DA3D52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				507FD1591A248B3600DA3D52 /* PBXTargetDependency */,
-			);
-			name = nicTests;
-			productName = nicTests;
-			productReference = 507FD1571A248B3600DA3D52 /* nicTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -508,10 +448,6 @@
 							};
 						};
 					};
-					507FD1561A248B3600DA3D52 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 507FD13A1A248B3600DA3D52;
-					};
 				};
 			};
 			buildConfigurationList = 507FD1361A248B3600DA3D52 /* Build configuration list for PBXProject "nic" */;
@@ -528,7 +464,6 @@
 			projectRoot = "";
 			targets = (
 				507FD13A1A248B3600DA3D52 /* Notson */,
-				507FD1561A248B3600DA3D52 /* nicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -550,13 +485,6 @@
 				267E679B1A2B3F3E0039120B /* blob.wav in Resources */,
 				507FD14F1A248B3600DA3D52 /* Images.xcassets in Resources */,
 				507FD1771A24B11D00DA3D52 /* iPadLoadingView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		507FD1551A248B3600DA3D52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,25 +556,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		507FD1531A248B3600DA3D52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				267E678B1A29CE870039120B /* Bubble.m in Sources */,
-				267E67A21A2B551B0039120B /* SmileyView.m in Sources */,
-				507FD15E1A248B3600DA3D52 /* nicTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		507FD1591A248B3600DA3D52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 507FD13A1A248B3600DA3D52 /* Notson */;
-			targetProxy = 507FD1581A248B3600DA3D52 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		507FD1501A248B3600DA3D52 /* LaunchScreen.xib */ = {
@@ -782,40 +692,6 @@
 			};
 			name = Release;
 		};
-		507FD1651A248B3600DA3D52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = nicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nic.app/nic";
-			};
-			name = Debug;
-		};
-		507FD1661A248B3600DA3D52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = nicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nic.app/nic";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,15 +709,6 @@
 			buildConfigurations = (
 				507FD1621A248B3600DA3D52 /* Debug */,
 				507FD1631A248B3600DA3D52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		507FD1641A248B3600DA3D52 /* Build configuration list for PBXNativeTarget "nicTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				507FD1651A248B3600DA3D52 /* Debug */,
-				507FD1661A248B3600DA3D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
