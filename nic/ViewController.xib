@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="loginAsLabel" destination="CZK-eA-in0" id="kGh-0U-88i"/>
+                <outlet property="loginButton" destination="RWI-0i-Rfz" id="9W3-FC-TTc"/>
+                <outlet property="view" destination="OAC-Ua-ETY" id="LHp-je-fMA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OAC-Ua-ETY">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login as Tarja Halonen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZK-eA-in0">
+                    <rect key="frame" x="8" y="530" width="304" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7Pn-KM-YwK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBd-yx-Y6w">
+                    <rect key="frame" x="3" y="299" width="313" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="taV-YF-5ZH"/>
+                    </constraints>
+                    <string key="text">Place your finger on top 
+of the home button</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginArea_WelcomeText" translatesAutoresizingMaskIntoConstraints="NO" id="Hb2-8I-mZP">
+                    <rect key="frame" x="34" y="151" width="251" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="VuK-dh-u8C"/>
+                        <constraint firstAttribute="width" constant="251" id="kWX-ny-rXo"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="mH8-aq-DRH"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWI-0i-Rfz">
+                    <rect key="frame" x="96" y="378" width="118" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="118" id="39I-Jd-k1K"/>
+                        <constraint firstAttribute="width" constant="118" id="cnf-Cd-woR"/>
+                    </constraints>
+                    <state key="normal" image="touchID_logo">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onLoginButton:" destination="-1" eventType="touchUpInside" id="rEq-Mh-HKG"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginArea_logo" translatesAutoresizingMaskIntoConstraints="NO" id="iw8-OU-fuS">
+                    <rect key="frame" x="78" y="20" width="164" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="arH-V8-vig"/>
+                        <constraint firstAttribute="width" constant="164" id="jel-0t-toX"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="pYA-PC-AUG"/>
+                        <constraint firstAttribute="height" constant="128" id="vo9-34-ttC"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="iw8-OU-fuS" secondAttribute="centerX" id="96y-Be-ol7"/>
+                <constraint firstItem="iw8-OU-fuS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="OAC-Ua-ETY" secondAttribute="top" constant="15" id="Bot-B3-HXk"/>
+                <constraint firstItem="Hb2-8I-mZP" firstAttribute="top" secondItem="iw8-OU-fuS" secondAttribute="bottom" constant="3" id="HLD-g0-zac"/>
+                <constraint firstAttribute="bottom" secondItem="CZK-eA-in0" secondAttribute="bottom" constant="17" id="Iob-EZ-i6q"/>
+                <constraint firstItem="RWI-0i-Rfz" firstAttribute="leading" secondItem="OAC-Ua-ETY" secondAttribute="leading" constant="96" id="PaM-wI-Uk2"/>
+                <constraint firstAttribute="centerX" secondItem="Hb2-8I-mZP" secondAttribute="centerX" id="QWO-Bf-iJ8"/>
+                <constraint firstItem="jBd-yx-Y6w" firstAttribute="leading" secondItem="OAC-Ua-ETY" secondAttribute="leading" constant="3" id="TPA-nC-QWc"/>
+                <constraint firstItem="RWI-0i-Rfz" firstAttribute="top" secondItem="jBd-yx-Y6w" secondAttribute="bottom" constant="19" id="UM8-w7-esH"/>
+                <constraint firstAttribute="trailing" secondItem="RWI-0i-Rfz" secondAttribute="trailing" constant="106" id="V02-pR-Xfs"/>
+                <constraint firstAttribute="trailing" secondItem="jBd-yx-Y6w" secondAttribute="trailing" constant="4" id="fWN-Ih-PIc"/>
+                <constraint firstItem="iw8-OU-fuS" firstAttribute="top" secondItem="OAC-Ua-ETY" secondAttribute="top" constant="20" id="h69-cm-nhm"/>
+                <constraint firstItem="CZK-eA-in0" firstAttribute="top" secondItem="RWI-0i-Rfz" secondAttribute="bottom" constant="34" id="qYb-hS-W4g"/>
+                <constraint firstAttribute="trailing" secondItem="CZK-eA-in0" secondAttribute="trailing" constant="8" id="u5W-ox-37w"/>
+                <constraint firstItem="CZK-eA-in0" firstAttribute="leading" secondItem="OAC-Ua-ETY" secondAttribute="leading" constant="8" id="z7O-NN-Qql"/>
+                <constraint firstAttribute="centerX" secondItem="jBd-yx-Y6w" secondAttribute="centerX" id="zH3-3j-saR"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="603" y="474"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loginArea_WelcomeText" width="250" height="85"/>
+        <image name="loginArea_logo" width="82" height="85"/>
+        <image name="touchID_logo" width="140" height="140"/>
+    </resources>
+</document>
